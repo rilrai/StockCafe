@@ -53,7 +53,7 @@ public class DatabaseCompareThread extends Thread {
             }
             
             try {
-                Thread.sleep(600000);
+                Thread.sleep(300000);
             } catch (InterruptedException ex) {
                 Logger.getLogger(DatabaseCompareThread.class.getName()).log(Level.SEVERE, null, ex);
             }
