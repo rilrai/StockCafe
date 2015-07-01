@@ -30,7 +30,10 @@ public class MenuPosition {
 
     public void NotOrdered(){
         this.count++;
-        this.currentCost = baseCost/count;
+        if (count!=0)
+            this.currentCost = this.baseCost/count;
+        else
+            this.currentCost = this.baseCost;
     }
     
     public void Ordered(int k){
